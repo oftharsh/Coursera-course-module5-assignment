@@ -14,7 +14,7 @@ In order to accomplish this, we need to change the home HTML snippet and, beside
 `<a href="#" onclick="$dc.loadMenuItems('SP');">`
 For this assignment, we changed this line to prepare it for a random category short_name to be this:
 
-<a href="#" onclick="$dc.loadMenuItems({{randomCategoryShortName}});">
+`<a href="#" onclick="$dc.loadMenuItems({{randomCategoryShortName}});">`
 Here is what you will need to complete the assignment:
 
 You are NOT allowed to change the `home-snippet.html` file. Any adjustments to the value of randomCategoryShortName property needs to be done in Javascript code.
@@ -25,14 +25,14 @@ There are 4-5 fairly simple steps to implement the required functionality.
 
 2. Find TODO: STEP 0, and follow the instructions until you are done with TODO: STEP 4.
 
-If you've watched the lectures, the code should be very familiar to you.
+   If you've watched the lectures, the code should be very familiar to you.
 
 3. Once you are done, verify that the desired functionality is working correctly. Use Browser Sync or deploy your solution to GitHub pages.
 
 4. Load the home page in the browser.
-- Click on the Specials tile. A single page category with a list of menu items for some category should appear.
-- Click on the restaurant logo to go back to the home page.
-- Click on the Specials tile again. Most likely, a different single page category page will be shown.
+-  Click on the Specials tile. A single page category with a list of menu items for some category should appear.
+-  Click on the restaurant logo to go back to the home page.
+-  Click on the Specials tile again. Most likely, a different single page category page will be shown.
 
 5. Repeat this several times to make sure that most of the time you see a different single category page.
 
